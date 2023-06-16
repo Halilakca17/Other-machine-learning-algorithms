@@ -1,0 +1,3 @@
+We examained bank data thanks to naive bayes , gried search and model performance metrics. We tried to find out which user got credit and which didn't.
+
+Naive bayes, gried search ve model performans metrikleri sayesinde banka verilerini inceledik. Hangi kullanıcının kredi alıp hangilerinin almadığını bulmaya çalıştık. since the data is not homogeneous, the accuracy is very high, actually we should look at the roc auc score from sklearn.metrics import roc_auc_score print('ROC-AUC score: {0:0.2f}'.format(roc_auc_score(y_test, y_pred))) ---> ROC-AUC score: 0.71
